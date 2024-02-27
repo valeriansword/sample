@@ -1,10 +1,10 @@
 import React from "react";
-
+import img1 from "/images/casual-1.jpg";
 function App(){
   return(
     <div>
         <h1>hello</h1>
-        <img src="/public/casual-1.jpg"  />
+        <img src={img1}  />
     </div>
   )
 }
